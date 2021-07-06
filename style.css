@@ -21,7 +21,7 @@ h1{
    
 }
 #h1_top_padding{
-padding-top: 12%;
+padding-top: 5%;
 }
 #p_wight{
    
@@ -54,9 +54,9 @@ padding-top: 12%;
     text-align: center;
 }
 .third{
-    width: 30%;
-    height: 30em;
-    box-shadow: 10px 10px 40px #796e6e;
+    width: 28%;
+    height: 26em;
+    box-shadow: 10px 10px 40px #b5aeae;
     border-radius: 15px;
     
     margin-left: 2%;
@@ -83,4 +83,8 @@ h6{
 }
 .header{
     height: 5em;
+}
+#margin_recipiecs{
+    margin-left: 8%;
+    margin-right: 8%;
 }
