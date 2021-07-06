@@ -2,12 +2,16 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.intro{
+.flex{
     display: flex;
 }
 .half_width{
     width: 50%;
     padding-left: 5%;
+}
+.half_width_h1{
+   
+    padding-right: 10%;
 }
 .span_color{
     color: orange;
@@ -25,6 +29,8 @@ padding-top: 12%;
 }
 .half_width img{
     width: 80%;
+    max-height: 100%;
+   
 }
 .link_button{
     text-decoration: none;
@@ -34,5 +40,47 @@ padding-top: 12%;
     font-weight: 300;
     color: white;
     border-radius: 50px;
+  
+}
+.link_button_top{
     margin-top: 20px;
+}
+.about{
+   background-image: url(images/about_bg.png);
+   object-fit: cover; 
+   background-repeat: no-repeat;
+}
+.text_center{
+    text-align: center;
+}
+.third{
+    width: 30%;
+    height: 30em;
+    box-shadow: 10px 10px 40px #796e6e;
+    border-radius: 15px;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px;
+}
+.center{
+  display: block;
+  width: 70%;
+  width: 100%;
+  
+}
+footer{
+    background-color: rgb(31, 30, 30);
+    height: 8em;
+    text-align: center;
+
+}
+h3{
+    color:rgb(123, 116, 116);
+}
+h6{
+    color: white;
+}
+.header{
+    height: 5em;
 }
