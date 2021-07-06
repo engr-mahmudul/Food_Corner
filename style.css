@@ -1,3 +1,38 @@
 body{
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+    padding-left: 5%;
+}
+.span_color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+   
+}
+#h1_top_padding{
+padding-top: 12%;
+}
+#p_wight{
+   
+   font-weight: 300;
+}
+.half_width img{
+    width: 80%;
+}
+.link_button{
+    text-decoration: none;
+
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 300;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
 }
